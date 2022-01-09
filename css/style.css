@@ -77,6 +77,10 @@ div#content div.rightBox{
     vertical-align: top;
 }
 
+div#content div.rightBox iframe, h2{
+    float: right;
+}
+
 div#content div{
     display: inline-block;
     width: 49%;
@@ -91,6 +95,9 @@ div#content div h1, h2, p, iframe{
     color: white;
     height: 100px;
     margin-top: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    vertical-align: bottom;
 }
 
 div.nav-menu div.img h3{
@@ -99,4 +106,27 @@ div.nav-menu div.img h3{
 
 nav.menu-nav ul{
     margin: 0px;
+}
+
+div#info div{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+div#info div.discord{
+    width: 49%;
+    margin-top: 10px;
+}
+
+div#info div.discord iframe{
+    float: right;
+}
+
+div#info div.news{
+    margin-left: 10px;
+}
+
+div#info div.news h2{
+    float: left;
 }
